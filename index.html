@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Portfolio</a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content animate-slide-in">
+                <span class="badge">👨‍💻 Cybersecurity Student</span>
+                <h1>Building secure & beautiful digital experiences ✨</h1>
+                <p>Student at LPU University, passionate about cybersecurity, UI/UX design, and creating impactful solutions. 🚀</p>
+                <div class="button-group">
+                    <a href="#projects" class="btn btn-primary animate-fade-in">View My Work →</a>
+                    <a href="#contact" class="btn btn-secondary animate-fade-in">Get in Touch</a>
+                </div>
+            </div>
+            <div class="profile-image-container animate-fade-in">
+                <img src="image.jpg" alt="Profile Photo" class="profile-image">
+                <div class="orbit"></div>
+                <div class="orbit orbit-2"></div>
+                <div class="orbit orbit-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content animate-on-scroll">
+                <h2>About Me 🎯</h2>
+                
+                <div class="about-text-card">
+                    <p>I'm Ayush Kumar, a passionate and driven individual currently pursuing my studies in <strong>cybersecurity engineering</strong>. I have a strong interest in technology, especially in areas like <strong>web development</strong>, <strong>machine learning</strong>, and <strong>data analysis</strong>. Over time, I've worked on a variety of projects ranging from static websites to machine learning models, focusing on both creativity and functionality.</p>
+                    <p>My journey so far has included building interactive web apps using <strong>HTML, CSS, and JavaScript</strong>, as well as diving into <strong>Java-based logic programs</strong> and <strong>anomaly detection in healthcare datasets</strong> using <strong>unsupervised learning techniques</strong>. I enjoy learning new tools and technologies and am always curious about how things work behind the scenes.</p>
+                    <p>Outside of academics, I enjoy outdoor activities and continuously strive to improve my skills through hands-on projects and self-learning. My goal is to grow into a well-rounded <strong>cybersecurity professional</strong> while contributing to innovative and impactful tech solutions.</p>
+                </div>
+                
+                <div class="skills-container">
+                    <div class="skills-card technical-skills">
+                        <h3>Technical Skills 💻</h3>
+                        <div class="skills-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">JAVA</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">UI/UX</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-card soft-skills">
+                        <h3>Soft Skills 🤝</h3>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Adaptable</span>
+                            <span class="skill-tag">Friendly</span>
+                            <span class="skill-tag">Passionate</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resume-card">
+                    <h3>Resume 📄</h3>
+                    <p>Want to know more about my qualifications and experience?</p>
+                    <a href="https://drive.google.com/file/d/1XAK-8ON6KxlRJNok2rCzXezwKdhHublA/view?usp=drivesdk" target="_blank" class="btn btn-primary">Download Resume</a>
+                </div>
+                
+                <div class="education-card">
+                    <h3>Education 📚</h3>
+                    <ul>
+                        <li>
+                            <p class="school">🎓 LPU University</p>
+                            <p class="degree">Cybersecurity - 6th Semester</p>
+                        </li>
+                        <li>
+                            <p class="school">🏫 Lions School, Mirzapur, UP</p>
+                            <p class="degree">High School</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="animate-on-scroll">Featured Projects 💡</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-icon">🔍</div>
+                    <h3>Unsupervised Anomaly Detection on Healthcare Dataset</h3>
+                    <p>This project focuses on detecting anomalies in healthcare provider data using unsupervised machine learning techniques. The goal is to identify unusual patterns that may indicate fraudulent activities or data inconsistencies, such as fund misallocation or unethical practices.</p>
+                    <div class="project-tags">
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Healthcare</span>
+                        <span class="tag">Data Analysis</span>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://github.com/malay42/Unsupervised-Anomaly-Detection-on-Healthcare-providers-data_Infosys_Internship_Oct2024/tree/Ayush" class="btn btn-small btn-primary">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Project Card 2 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-icon">🚂</div>
+                    <h3>Railways Reservation System</h3>
+                    <p>This project simulates a basic railway ticket booking system using HTML for structure, CSS for styling, and JavaScript for dynamic functionality. Users can view train schedules, check seat availability, and make reservations through a user-friendly interface.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://github.com/AYUSH09874/Railway-Reservation-System" target="_blank" class="btn btn-small btn-primary">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Project Card 3 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-icon">🅿️</div>
+                    <h3>Smart Parking with ParkEase App</h3>
+                    <p>A mobile-friendly app that addresses limited parking in urban areas. It features real-time parking availability, interactive maps, and a reservation system. The app was built based on surveys and interviews, especially in Phagwara, ensuring accessible and intuitive UX design.</p>
+                    <div class="project-tags">
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">Mobile App</span>
+                        <span class="tag">User Research</span>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://www.figma.com/design/hBNipgt7tfyDppFrvNxwvl/high-parking?node-id=0-1&p=f&t=QxDg0AInfsmOjTIS-0" target="_blank" class="btn btn-small btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content animate-on-scroll">
+                <h2>Get in Touch ✉️</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label>👤 Name</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>📧 Email</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>💭 Message</label>
+                        <textarea required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message 🚀</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
