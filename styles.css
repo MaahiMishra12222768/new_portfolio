@@ -1613,3 +1613,16 @@ a:hover {
         display: none;
     }
 }
+.project-card-inner .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 20px var(--shadow-color);
+    transition: transform 0.3s ease;
+}
+
+.project-card-inner .project-image:hover {
+    transform: scale(1.02);
+}
